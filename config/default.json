@@ -1,6 +1,6 @@
 {
-    "appSecret": "fc6e834432c722ae1122f390bbfbe349",
-    "pageAccessToken": "EAAHlZB6yvDmIBAFAFjlYnDIVQYEYy6QXIdbdgPYkIIeZCUqrJvGZBrldfUzciCOfmDvXcelLZB67VrrOxKhsjE2f1oesxQNp0BaOMq9KG27AsWa2TDOEciLmdauuOYTD5ZBGLdHePFFNVlAPjqI3OLwfSL84EJ9DhuMruyce0nwZDZD",
+    "appSecret": "7be92fe7ee2c2d12cd2351d2a2c0dbb8",
+    "pageAccessToken": "EAAGjmqGLNv0BAKhffHXB7VhCEv9SuP1AvylLoJyZCY2gF22D9LUv5uQ0rHGkH0bmN5CimCClDIkUrSqhhfLdnMn99OjEQ9EqrlSaSUkOtX4ZCyZAu6ZAUOB7ZC4ZC5gcPlhXf2MW1GVZA4Aph6zOHUsnBunGpqgL4Jwz9MxO6LRHwZDZD",
     "validationToken": "validationToken",
     "serverURL": "https://shilp-messenger.herokuapp.com"
 }
