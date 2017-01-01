@@ -277,15 +277,15 @@ function receivedMessage(event) {
           messageReply = "The annual techno-management fest organized every year within the dimensions of Indian Institute of Technology (BHU) located in the state of Varanasi!";
           sendTextMessage(senderID, messageReply);
           break;
-      // case 'help conclave':
-      //     messageReply = "Conclave is an event where we will organize a meet which will be presided by a panel of 6 members, relating to the topic of discussion 'River Water Rejuvenation'.";
-      //     sendTextMessage(senderID, messageReply);
-      //     break;
+      case 'help startupfair':
+          messageReply = "Startup Fair is the biggest national convention for young entrepreneurs. Stand to win funding, scholarship from UP govt, incubation into MCIIE.";
+          sendTextMessage(senderID, messageReply);
+          break;
 
-      // case 'help idp':
-      //       messageReply = "Industrial Development Problem is a event where you'll explore the ideas for solving the technological challenges faced by industries."
-      //       sendTextMessage(senderID, messageReply);
-      //     break;
+      case 'help robonex':
+            messageReply = "Robonex gives you a platform to delve deeper into robotics and learn programming, creating and controlling your own bot."
+            sendTextMessage(senderID, messageReply);
+          break;
 
       // case 'image':
       //   sendImageMessage(senderID);
