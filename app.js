@@ -287,6 +287,10 @@ function receivedMessage(event) {
             sendTextMessage(senderID, messageReply);
           break;
 
+      case 'my receipt':
+        sendReceiptMessage(senderID);
+        break;
+
       // case 'image':
       //   sendImageMessage(senderID);
       //   break;
@@ -676,7 +680,7 @@ function sendReceiptMessage(recipientId) {
           template_type: "receipt",
           recipient_name: "Mayur Dhurpate",
           order_number: receiptId,
-          currency: "USD",
+          currency: "INR",
           payment_method: "Visa 1234",        
           timestamp: "1428444852", 
           elements: [{
@@ -684,16 +688,16 @@ function sendReceiptMessage(recipientId) {
             subtitle: "Includes: lunch, stay",
             quantity: 1,
             price: 599.00,
-            currency: "USD",
+            currency: "INR",
             image_url: SERVER_URL + "/assets/sc.png"
           }],
           address: {
-            street_1: "1 Hacker Way",
+            street_1: "19 Staner Wentor",
             street_2: "",
-            city: "Menlo Park",
-            postal_code: "94025",
-            state: "CA",
-            country: "US"
+            city: "Pune",
+            postal_code: "411040",
+            state: "MH",
+            country: "INDIA"
           },
           summary: {
             subtotal: 599,
